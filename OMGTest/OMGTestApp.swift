@@ -1,10 +1,3 @@
-//
-//  OMGTestApp.swift
-//  OMGTest
-//
-//  Created by Amirkhan Akaev on 03.03.2024.
-//
-
 import SwiftUI
 
 @main

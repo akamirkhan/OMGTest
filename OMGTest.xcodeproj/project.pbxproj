@@ -11,6 +11,8 @@
 		FDBC2BAF2B94606D00636F12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC2BAE2B94606D00636F12 /* ContentView.swift */; };
 		FDBC2BB12B94606F00636F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBC2BB02B94606F00636F12 /* Assets.xcassets */; };
 		FDBC2BB42B94606F00636F12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBC2BB32B94606F00636F12 /* Preview Assets.xcassets */; };
+		FDBC2BBD2B94614300636F12 /* HorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC2BBC2B94614300636F12 /* HorizontalListView.swift */; };
+		FDBC2BBF2B94617B00636F12 /* AnimatedSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC2BBE2B94617B00636F12 /* AnimatedSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		FDBC2BAE2B94606D00636F12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDBC2BB02B94606F00636F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDBC2BB32B94606F00636F12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDBC2BBC2B94614300636F12 /* HorizontalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListView.swift; sourceTree = "<group>"; };
+		FDBC2BBE2B94617B00636F12 /* AnimatedSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				FDBC2BAC2B94606D00636F12 /* OMGTestApp.swift */,
-				FDBC2BAE2B94606D00636F12 /* ContentView.swift */,
-				FDBC2BB02B94606F00636F12 /* Assets.xcassets */,
+				FDBC2BBA2B94610A00636F12 /* ContentView */,
+				FDBC2BC02B95B14900636F12 /* Resources */,
 				FDBC2BB22B94606F00636F12 /* Preview Content */,
 			);
 			path = OMGTest;
@@ -65,6 +69,32 @@
 				FDBC2BB32B94606F00636F12 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDBC2BBA2B94610A00636F12 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC2BAE2B94606D00636F12 /* ContentView.swift */,
+				FDBC2BBB2B94611E00636F12 /* Views */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		FDBC2BBB2B94611E00636F12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC2BBC2B94614300636F12 /* HorizontalListView.swift */,
+				FDBC2BBE2B94617B00636F12 /* AnimatedSquare.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDBC2BC02B95B14900636F12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC2BB02B94606F00636F12 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +169,8 @@
 			files = (
 				FDBC2BAF2B94606D00636F12 /* ContentView.swift in Sources */,
 				FDBC2BAD2B94606D00636F12 /* OMGTestApp.swift in Sources */,
+				FDBC2BBD2B94614300636F12 /* HorizontalListView.swift in Sources */,
+				FDBC2BBF2B94617B00636F12 /* AnimatedSquare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,6 +319,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.akaev.OMGTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,6 +343,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +351,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.akaev.OMGTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
