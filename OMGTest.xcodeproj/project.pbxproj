@@ -13,6 +13,7 @@
 		FDBC2BB42B94606F00636F12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBC2BB32B94606F00636F12 /* Preview Assets.xcassets */; };
 		FDBC2BBD2B94614300636F12 /* HorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC2BBC2B94614300636F12 /* HorizontalListView.swift */; };
 		FDBC2BBF2B94617B00636F12 /* AnimatedSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC2BBE2B94617B00636F12 /* AnimatedSquare.swift */; };
+		FDBC2BC22B98BBA100636F12 /* HorizontalListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC2BC12B98BBA100636F12 /* HorizontalListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FDBC2BB32B94606F00636F12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDBC2BBC2B94614300636F12 /* HorizontalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListView.swift; sourceTree = "<group>"; };
 		FDBC2BBE2B94617B00636F12 /* AnimatedSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSquare.swift; sourceTree = "<group>"; };
+		FDBC2BC12B98BBA100636F12 /* HorizontalListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				FDBC2BBC2B94614300636F12 /* HorizontalListView.swift */,
+				FDBC2BC12B98BBA100636F12 /* HorizontalListViewModel.swift */,
 				FDBC2BBE2B94617B00636F12 /* AnimatedSquare.swift */,
 			);
 			path = Views;
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBC2BC22B98BBA100636F12 /* HorizontalListViewModel.swift in Sources */,
 				FDBC2BAF2B94606D00636F12 /* ContentView.swift in Sources */,
 				FDBC2BAD2B94606D00636F12 /* OMGTestApp.swift in Sources */,
 				FDBC2BBD2B94614300636F12 /* HorizontalListView.swift in Sources */,

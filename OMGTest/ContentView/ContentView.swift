@@ -7,7 +7,7 @@ struct ContentView: View {
         ScrollView {
             LazyVStack(spacing: 8) {
                 ForEach(0..<verticalListCount, id: \.self) { index in
-                    HorizontalListView()
+                    HorizontalListView(viewModel: .init())
                 }
             }
             .padding(.vertical)
